@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Curso React</title>
+	</head>
+	<body>
+		<section class="principal">
+			<img src="logo.png" style="height: 150px;">
+			<h1>DATABASE POKÉMON</h1>
+
+			<section class="busca-pokemon">
+				<form>
+					<label for="nomepokemon"><b>Informe o Nome ou ID do Pokémon:</b></label>
+					<input type="text" id="nomepokemon" /> <br />
+					<br />
+					<button id="buscapokemon">Buscar</button>
+					<button id="limparcampos">Limpar</button>
+					<p class="erropoke hide"><b>Pokemon não encontrado!</b></p>
+				</form>
+
+				<div class="informacoes hide">
+					<div class="imagemprincipal">
+						<img id="imagempoke" />
+					</div>
+					<p><b>ID:</b> <span id="idpoke"></span></p>
+					<p><b>Nome:</b> <span id="nomepoke"></span></p>
+					<p><b>Altura:</b> <span id="alturapoke"></span></p>
+					<p><b>Peso:</b> <span id="pesopoke"></span></p>
+					<p><b>Tipo(s):</b> <span id="tipospoke"></span></p>
+					<p><b>Exp. Base:</b> <span id="expbasepoke"></span></p>
+					<p><b>Habilidade(s):</b> <span id="habilidadepoke"></span></p>
+					<p><b>Movimento(s):</b> <span id="movimentospoke"></span></p>
+				</div>
+			</section>
+			<footer>Desenvolvido por <a href="https://github.com/agenciah1code" target="_blank">Mario Augusto Paglia (GitHub)</a> consumindo a <a href="https://pokeapi.co/" target="_blank">PokeAPI</a></footer>
+		</section>
+		<script src="script.js"></script>
+	</body>
+</html>

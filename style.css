@@ -1,0 +1,119 @@
+﻿html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #4895ef;
+    color: white;
+    overflow-x: hidden !important;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+	width: 100%;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.principal {
+    width: 60vh;
+    margin: 2rem;
+    background-color: rgba(0,0,0, 0.4);
+    box-shadow: 5px 5px 4px 0px rgba(0,0,0, 0.5);
+    border-radius: 20px;
+    padding: 50px;
+}
+
+.hide {
+    display: none;
+}
+
+.ativo {
+    display: visible;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+#imagempoke {
+    margin-top: 3rem;
+    max-height: 250px;
+}
+
+.informacoes {
+    /* width: 20px; */
+    text-align: justify;
+}
+
+.imagemprincipal {
+    display: flex;
+    justify-content: center;
+}
+
+
+input {
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+    padding: 1rem;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+button {
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    padding: 15px;
+    width: 150px;
+}
+
+button:active {
+    box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.3);
+}
+
+#buscapokemon {
+    margin-right: 5px;
+    background-color: #27ae60;
+    color: white;
+}
+
+#buscapokemon:hover {
+    background-color: rgba(39, 174, 96, 0.9);
+}
+
+#limparcampos {
+    background-color: #7f8c8d;
+    color: white;
+}
+
+#limparcampos:hover {
+    background-color: rgba(127, 140, 141, 0.9);
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-shadow: 3px 3px rgba(0,0,0, 0.3);
+
+}
+
+#nomepokemon {
+    margin-top: 1rem;
+}
+
+footer {
+    margin-top: 5rem;
+    display: block;
+}
+
+a {
+    color: white;
+}
+
+.erropoke {
+    color: #f1c40f;
+    margin-top: 50px;
+}
